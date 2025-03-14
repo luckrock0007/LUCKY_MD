@@ -4,7 +4,7 @@ const {
 const {
   default: axios
 } = require("axios");
-ezra({
+luck({
   'nomCom': "pair",
   'aliases': ["session", "pair", "paircode", "qrcode"],
   'reaction': '🤩',
