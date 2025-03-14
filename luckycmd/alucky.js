@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   'value': true
 });
 const {
-  ezra
+  luck
 } = require("../fredi/ezra");
 ezra({
   'nomCom': "wagroup",
@@ -27,7 +27,7 @@ ezra({
   });
   console.log("Command executed: wagroup");
 });
-ezra({
+luck ){
   'nomCom': 'wachannel',
   'reaction': '👀',
   'categorie': "Support-Owner",
