@@ -1,13 +1,13 @@
-const { ezra } = require("../fredi/ezra");
+const {luck } = require("../fredi/ezra");
 const fs = require('fs');
 
 
-let antiDeleteActive = false; // Variable pour stocker l'état de la commande anti-delete
+let antiDeleteActive = true; // Variable pour stocker l'état de la commande anti-delete
 
-ezra({
+luck({
   nomCom: "anti-delete",
   categorie: "General",
-  reaction: "😏"
+  reaction: "☠️"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, arg } = commandeOptions;
 
@@ -18,8 +18,8 @@ ezra({
       antiDeleteActive = true;
       await zk.sendMessage(origineMessage, "La commande anti-delete est activée.");
       return;
-    } else if (action === "off") {
-      antiDeleteActive = false;
+    } else if (action === "on") {
+      antiDeleteActive = true;
       await zk.sendMessage(origineMessage, "La commande anti-delete est désactivée.");
       return;
     }
@@ -61,7 +61,7 @@ ezra({
       }
 
       const senderId = msg.key.participant.split('@')[0];
-      const caption = ` Anti-delete-message by hanstz Tech\nMessage de @${senderId}`;
+      const caption = ` Anti-delete-message by lucktz Tech\nMessage de @${senderId}`;
       const imageCaption = { image: { url: './media/deleted-message.jpg' }, caption, mentions: [msg.key.participant] };
 
       await zk.sendMessage(idBot, imageCaption);
