@@ -1,4 +1,5 @@
-const {luck } = require("../fredi/ezra");
+const {luck } = require("..https://github.com/luckrock0007/LUCKY_MD/");luckmd
+/
 const fs = require('fs');
 
 
