@@ -5,7 +5,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 const {
   luck
-} = require("../fredi/ezra");
+} = require("../"LUCKY_MD
+https://github.com/luckrock0007/LUCKY_MD/tree/main);
 ezra({
   'nomCom': "wagroup",
   'reaction': '🤨',
