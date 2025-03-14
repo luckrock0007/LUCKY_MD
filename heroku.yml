@@ -1,5 +1,5 @@
 build:
   docker:
-      worker: Dockerfile
+      worker: https://files.catbox.moe/ihybe5.jpg
 run:
-   worker:   npm run Fredie
+   worker:   npm run luckmd
