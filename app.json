@@ -1,6 +1,6 @@
 {
-  "name": "✧⁠LUCKY_MD✧ MULT DEVICE",
-  "description": "Lucky Whatsapp device bot made by FrediEzra to help Whatsapp users to enjoy while helping..",
+  "name": "✧⁠LUCK MD✧ MULT DEVICE",
+  "description": "Luck  Whatsapp device bot made by luckson mlundi to help Whatsapp users to enjoy while helping..",
   "keywords": [
     "bot",
     "node",
@@ -8,7 +8,7 @@
     "whatsapp"
   ],
   "logo": "https://files.catbox.moe/7irwqn.jpeg",
-  "repository": "https://github.com/Fred1e/LUCKY_MD",
+  "repository": "https://github.com/luckrock0007/LUCKY_MD/" ,
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -61,7 +61,7 @@
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "viewed ✅✅",
+      "value": "💯 ",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -76,7 +76,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "✧⁠LUCKY_MD✧",
+      "value": "✧⁠LUCK MD✧",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -101,7 +101,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "FrediEzra",
+      "value": "luckmlundi",
       "required": false
     },
     "URL": {
@@ -116,7 +116,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
-      "value": "255752593977",
+      "value": "255769028795",
       "required": false
     },
     "WARN_COUNT": {
@@ -136,7 +136,7 @@
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTI_CALL": {
