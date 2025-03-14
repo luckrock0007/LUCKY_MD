@@ -1,4 +1,4 @@
-const { ezra } = require('../fredi/ezra');
+const { luck } = require('..luckrock0007/LUCKY_MD');
 const {addOrUpdateDataInAlive , getDataFromAlive} = require('../luckydatabase/alive')
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
@@ -91,7 +91,6 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre('  Lucky Md Is A Live 24hrs Enjoy To Use All Time🤗. ')
+repondre('  Luck Md Is A Live 24hrs Enjoy To Use All Time☠️👍. ')
 
-}
-    });
+respond (luck yupo masaa 24)  
